@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageFragment"
+    android:background="@color/primaryBackGround">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/content_language"
+            android:textStyle="bold"
+            android:textColor="@color/primaryRed"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <View
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:layout_gravity="center"
+                android:layout_marginEnd="2dp"
+            android:layout_width="match_parent" />
+        <TextView
+            android:id="@+id/lang_All"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/all"
+            android:textSize="18sp"
+            android:textColor="@color/primaryOrange"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/primaryBackGroundLight"/>
+        <View
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="@color/primaryBackGroundLight"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_width="match_parent" />
+        <TextView
+            android:id="@+id/lang_bengalis"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/bengali"
+            android:textSize="18sp"
+            android:textColor="@color/primaryOrange"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <View
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="@color/primaryBackGroundLight"
+            android:layout_gravity="center"
+                android:layout_marginEnd="2dp"
+            android:layout_width="match_parent" />
+        <TextView
+            android:id="@+id/lang_hin"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hindi"
+            android:textSize="18sp"
+            android:textColor="@color/primaryOrange"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <View
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="@color/primaryBackGroundLight"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_width="match_parent" />
+        <TextView
+            android:id="@+id/lang_english"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/english"
+            android:textSize="18sp"
+            android:textColor="@color/primaryOrange"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <View
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="@color/primaryBackGroundLight"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_width="match_parent" />
+        <TextView
+            android:id="@+id/lang_kannada"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/kannada"
+            android:textSize="18sp"
+            android:textColor="@color/primaryOrange"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <View
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="@color/primaryBackGroundLight"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+
+</FrameLayout>

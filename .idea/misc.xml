@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ClickForFlick/app/src/main/res/layout/child_rec.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ClickForFlick/app/src/main/res/layout/child_recycleview.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ClickForFlick/app/src/main/res/layout/fragment_home.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ClickForFlick/app/src/main/res/layout/playview_layout.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ClickForFlick/app/src/main/res/layout/searchbar.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ClickForFlick/app/src/main/res/layout/searched_item.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/layout/activity_blank.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/layout/activity_language.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/layout/activity_movie_play.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/layout/activity_payment.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/layout/activity_privacy_and_about.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/layout/activity_sign_in.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/layout/activity_sign_up.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/layout/activity_subscription_plan.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/layout/banner_movies.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/layout/fragment_blank.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/new jbhl/ClickForFlick/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_subscribe.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable-anydpi/otp.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable-mdpi/plan_bg.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable/backgroundprimarysml.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable/backgroundprimaryxml.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable/ic_mobile.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable/ic_username.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable/indicator.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable/indicator_selector.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable/nav_background.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable/progressbar.xml" value="0.3140625" />
+        <entry key="app/src/main/res/layout/activity_blank.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_land_scape.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/activity_language.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_movie_play.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_payment.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/activity_privacy_and_about.xml" value="0.34375" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/activity_subscription_plan.xml" value="0.2259963768115942" />
+        <entry key="app/src/main/res/layout/banner_module.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/banner_movies.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/card_subscription_plan.xml" value="0.2078804347826087" />
+        <entry key="app/src/main/res/layout/child_rec.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/child_recycleview.xml" value="0.14488348530901723" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/fragment_language.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.13796296296296295" />
+        <entry key="app/src/main/res/layout/indicator.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/main_bar.xml" value="0.13796296296296295" />
+        <entry key="app/src/main/res/layout/main_layout.xml" value="0.13796296296296295" />
+        <entry key="app/src/main/res/layout/next_card_item.xml" value="0.2296875" />
+        <entry key="app/src/main/res/layout/parent_recycleview.xml" value="0.14488348530901723" />
+        <entry key="app/src/main/res/layout/playview_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/searchbar.xml" value="0.22735507246376813" />
+        <entry key="app/src/main/res/layout/searched_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/test_banner.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/xml/a.xml" value="0.29791666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_back"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/subscription_plan_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/subscription_tooltext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="serif"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/subscription_plan_linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.appcompat.widget.Toolbar>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        app:civ_border_width= "8dp"
+        android:layout_gravity="center"
+        app:civ_border_color= "@color/primaryBackGround"
+        app:civ_circle_background_color="@color/primaryBackGround"
+        android:src= "@drawable/crown"
+        android:layout_centerInParent= "true"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"/>
+    <ScrollView
+        android:id="@+id/subscription_scroll"
+        android:layout_marginTop="-10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/primaryBackGround">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/subscription_plan_rec"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/primaryBackGround"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/subscription_scroll_lin"
+        android:layout_marginTop="-10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/primaryBackGround">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payment Date: "
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryOrange"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:id="@+id/subscription_pay_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expiry Date: "
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryOrange"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:id="@+id/subscription_exp_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amount: "
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryOrange"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:id="@+id/subscription_pay_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

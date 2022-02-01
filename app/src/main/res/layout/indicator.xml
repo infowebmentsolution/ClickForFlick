@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="102dp"
+    android:layout_height="90dp"
+    android:background="@drawable/white_border_box"
+    android:text="Subscribe"
+    android:textColor="@color/primaryRed"
+    android:textStyle="bold" />

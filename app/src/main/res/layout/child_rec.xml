@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="2dp"
+    android:background="@color/primaryBackGroundLight"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="5dp">
+
+
+
+    <ImageView
+        android:id="@+id/child_item_image"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:background="@color/primaryBackGround"
+        android:src="@drawable/s1" />
+
+    <ImageView
+        android:id="@+id/free"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:src="@drawable/crown"
+        android:padding="5dp"
+        android:background="@color/primaryOrange"/>
+    <!--com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/child_item_image"
+        android:layout_width="90dp"
+        android:layout_height="130dp"
+        android:src="@drawable/s1"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_margin="0dp"
+        app:strokeColor="@color/primaryBackGroundLight"
+        android:outlineSpotShadowColor="@color/primaryBackGroundLight"
+        app:shapeAppearanceOverlay="@style/roundimageview"/-->
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Click For Flick</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tramsofservice">By creating an account, you agree that you have read and accepting our <u>Terms of Service</u> and<u> Privacy Policy.</u></string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="all">All</string>
+    <string name="content_language">Content Language</string>
+    <string name="bengali">Bengali</string>
+    <string name="hindi">Hindi</string>
+    <string name="english">English</string>
+    <string name="kannada">Kannada</string>
+    <string name="watch_trailer_now">Watch Trailer Now</string>
+    <string name="zero">0</string>
+    <string name="next">Next</string>
+    <string name="categorynane">CategoryNane</string>
+    <string name="search_for_movies_shows_series_ect">Search for Movies, Shows, Series ect.</string>
+</resources>
